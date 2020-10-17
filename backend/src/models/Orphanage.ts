@@ -7,7 +7,7 @@ import {
 } from "typeorm";
 import Image from "./Image";
 
-@Entity("orphaganes")
+@Entity("orphanages")
 export default class Orphanage {
   @PrimaryGeneratedColumn("increment")
   id: number;
